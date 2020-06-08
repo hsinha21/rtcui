@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "tryui": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tryui"
+    }
+  },
+  "defaultProject": "tryui",
+  "cli": {
+    "analytics": "3e0113d3-abac-44aa-b43e-80786bbe7efb"
+  }
 }

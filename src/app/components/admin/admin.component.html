@@ -1,0 +1,14 @@
+<div class="container">
+    <h2>Admin View</h2>
+    <header class="header">
+        <button (click)="openingAdminRTC()">Start</button>
+    </header>
+    <div class="content-container">
+        <div class="video-chat-container">
+            <div class="video-container">
+                <video #remoteVideo autoplay class="remote-video" id="remote-video"></video>
+                <video #videoElement autoplay class="local-video" id="local-video"></video>
+            </div>
+        </div>
+    </div>
+</div>

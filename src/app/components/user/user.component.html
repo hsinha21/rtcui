@@ -1,0 +1,17 @@
+<div class="container">
+    <header class="header">
+        <h2>User View</h2><br>
+      <div class="logo-container">
+          
+        <button (click)="callAdmin()">Connect Admin</button>
+      </div>
+    </header>
+    <div class="content-container">
+      <div class="video-chat-container">
+        <div class="video-container">
+          <video #remoteVideo autoplay class="remote-video" id="remote-video"></video>
+          <video #videoElement autoplay muted class="local-video" id="local-video"></video>
+        </div>
+      </div>
+    </div>
+  </div>
